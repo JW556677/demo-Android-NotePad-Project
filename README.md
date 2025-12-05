@@ -18,6 +18,7 @@
 - 在列表项底部以灰色小字显示
 
 #### 实现代码
+<img width="569" height="1010" alt="image" src="https://github.com/user-attachments/assets/eea1e704-8ec1-49ee-ab4c-b4085aae3e1e" />
 
 **布局文件** (`noteslist_item.xml`)：
 ```xml
