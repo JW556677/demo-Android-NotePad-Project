@@ -104,7 +104,9 @@ private final void updateNote(String text, String title) {
 点击右上角的搜索按钮可按标题和内容进行模糊查询
 
 <img width="569" height="1010" alt="image" src="https://github.com/user-attachments/assets/78c4f2ab-539d-41ab-abd0-5a7416b9e553" />
+
 <img width="569" height="1010" alt="image" src="https://github.com/user-attachments/assets/b871bd14-b1c4-4283-89da-c06e5ef16ff9" />
+
 <img width="569" height="1010" alt="image" src="https://github.com/user-attachments/assets/d3e1c7db-31b6-4833-b9e4-2aa3351f02c1" />
 
 
@@ -199,11 +201,17 @@ private void doSearch(String key) {
 - 默认白色背景
 
 #### 实现效果
+
 在笔记详情页右上角的更多选项中选择颜色
+
 <img width="569" height="1010" alt="image" src="https://github.com/user-attachments/assets/3369523e-6889-4533-a4dc-601613415bf4" />
+
 可选择七种不同的颜色
+
 <img width="569" height="1010" alt="image" src="https://github.com/user-attachments/assets/94d4eca3-ee4d-420b-9d41-1540b53e7389" />
+
 选择后返回列表页，笔记将会改变颜色
+
 <img width="569" height="1010" alt="image" src="https://github.com/user-attachments/assets/bc94ecc4-9089-45e1-9bc2-3c61a9c58202" />
 
 
@@ -341,8 +349,11 @@ adapter.setViewBinder(new SimpleCursorAdapter.ViewBinder() {
 - 防止崩溃的异常处理
 
 #### 实现效果
+
 点击右上角的导出按钮可以导出为.txt格式的文件
+
 <img width="569" height="1010" alt="image" src="https://github.com/user-attachments/assets/4b9b632a-733a-4058-9522-abf6137a9cbc" />
+
 <img width="569" height="1010" alt="image" src="https://github.com/user-attachments/assets/1c31f025-0e20-4259-b23f-db08f5a549dc" />
 
 
@@ -470,6 +481,31 @@ private final void deleteNote() {
 - 分类管理（删除分类）
 - 新建笔记时指定分类
 - 删除分类时自动处理笔记归属
+
+
+#### 实现效果
+
+点击分类按钮进入分类界面
+
+<img width="309" height="300" alt="image" src="https://github.com/user-attachments/assets/1621291e-56e4-4f84-a750-ec9cb34a9e46" />
+
+可以自主选择分类和进行分类的增加与删除
+
+<img width="569" height="1010" alt="image" src="https://github.com/user-attachments/assets/8e5af3d0-7e0e-440c-95aa-977c6a5af6c5" />
+
+<img width="490" height="245" alt="image" src="https://github.com/user-attachments/assets/27112d4d-5e7f-4c88-9bfa-590a2861321e" />
+
+可以将笔记放入不同的分类中
+
+<img width="569" height="1010" alt="image" src="https://github.com/user-attachments/assets/aaa7f7fc-43d0-431c-a707-eae578b4d717" />
+
+<img width="569" height="1010" alt="image" src="https://github.com/user-attachments/assets/2a74c98a-a659-40a8-a398-e5770b65c090" />
+
+点击管理分类能对不同的分类进行删除
+
+<img width="569" height="1010" alt="image" src="https://github.com/user-attachments/assets/a3ea3995-0e58-4001-8314-d2cfe51079e1" />
+
+
 
 #### 实现代码
 
