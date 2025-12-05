@@ -6,11 +6,25 @@
 
 本项目基于 Android NotePad 示例应用进行扩展开发，添加了多项实用功能，提升用户体验。
 
+## 基本功能
+1.新建笔记和删除笔记
+<img width="569" height="1010" alt="image" src="https://github.com/user-attachments/assets/59de8826-ce67-48ba-a7f9-a5ff2aa1bdfb" />
+点击右上角的新建按钮可以新建笔记
+<img width="569" height="1010" alt="image" src="https://github.com/user-attachments/assets/ac4b982c-0660-4e42-ad70-e172252dbc3d" />
+新建笔记界面可以自行编辑标题和内容
+<img width="569" height="1010" alt="image" src="https://github.com/user-attachments/assets/7884f00e-46e9-413e-9c9a-20e96ee4a483" />
+点击右上角的“保存”和“删除”按钮可以对笔记进行保存和删除
+<img width="569" height="1010" alt="image" src="https://github.com/user-attachments/assets/3a64d947-230c-4236-8b36-61716680b9ca" />
+点击右上角的更多功能可以编辑笔记标题
+
 ## 核心功能
 
 ### 1. 时间戳显示
 
 在笔记列表中显示每条笔记的最后修改时间，方便用户快速了解笔记的更新情况。
+效果如图：
+<img width="569" height="1010" alt="image" src="https://github.com/user-attachments/assets/c25dbca2-a630-4ead-8738-4d58397299c8" />
+
 
 #### 功能特点
 - 格式化显示时间：`yyyy-MM-dd HH:mm`
@@ -18,7 +32,6 @@
 - 在列表项底部以灰色小字显示
 
 #### 实现代码
-<img width="569" height="1010" alt="image" src="https://github.com/user-attachments/assets/eea1e704-8ec1-49ee-ab4c-b4085aae3e1e" />
 
 **布局文件** (`noteslist_item.xml`)：
 ```xml
@@ -75,6 +88,13 @@ private final void updateNote(String text, String title) {
 - 支持模糊匹配
 - 搜索结果即时显示
 - 搜索框采用 SearchView 组件
+
+#### 实现效果
+点击右上角的搜索按钮可按标题和内容进行模糊查询
+<img width="569" height="1010" alt="image" src="https://github.com/user-attachments/assets/78c4f2ab-539d-41ab-abd0-5a7416b9e553" />
+<img width="569" height="1010" alt="image" src="https://github.com/user-attachments/assets/b871bd14-b1c4-4283-89da-c06e5ef16ff9" />
+<img width="569" height="1010" alt="image" src="https://github.com/user-attachments/assets/d3e1c7db-31b6-4833-b9e4-2aa3351f02c1" />
+
 
 #### 实现代码
 
@@ -165,6 +185,16 @@ private void doSearch(String key) {
 - 颜色以卡片背景形式显示
 - 编辑笔记时可随时更改颜色
 - 默认白色背景
+
+#### 实现效果
+在笔记详情页右上角的更多选项中选择颜色
+<img width="569" height="1010" alt="image" src="https://github.com/user-attachments/assets/3369523e-6889-4533-a4dc-601613415bf4" />
+可选择七种不同的颜色
+<img width="569" height="1010" alt="image" src="https://github.com/user-attachments/assets/94d4eca3-ee4d-420b-9d41-1540b53e7389" />
+选择后返回列表页，笔记将会改变颜色
+<img width="569" height="1010" alt="image" src="https://github.com/user-attachments/assets/bc94ecc4-9089-45e1-9bc2-3c61a9c58202" />
+
+
 
 #### 实现代码
 
@@ -297,6 +327,12 @@ adapter.setViewBinder(new SimpleCursorAdapter.ViewBinder() {
 - 支持独立的标题输入框
 - 空笔记自动删除
 - 防止崩溃的异常处理
+
+#### 实现效果
+点击右上角的导出按钮可以导出为.txt格式的文件
+<img width="569" height="1010" alt="image" src="https://github.com/user-attachments/assets/4b9b632a-733a-4058-9522-abf6137a9cbc" />
+<img width="569" height="1010" alt="image" src="https://github.com/user-attachments/assets/1c31f025-0e20-4259-b23f-db08f5a549dc" />
+
 
 #### 实现代码
 
