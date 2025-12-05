@@ -10,21 +10,34 @@
 
 1.新建笔记和删除笔记
 
-<img width="569" height="1010" alt="image" src="https://github.com/user-attachments/assets/59de8826-ce67-48ba-a7f9-a5ff2aa1bdfb" />
-
 点击右上角的新建按钮可以新建笔记
 
-<img width="569" height="1010" alt="image" src="https://github.com/user-attachments/assets/ac4b982c-0660-4e42-ad70-e172252dbc3d" />
+<img width="569" height="1010" alt="image" src="https://github.com/user-attachments/assets/59de8826-ce67-48ba-a7f9-a5ff2aa1bdfb" />
 
 新建笔记界面可以自行编辑标题和内容
 
-<img width="569" height="1010" alt="image" src="https://github.com/user-attachments/assets/7884f00e-46e9-413e-9c9a-20e96ee4a483" />
+<img width="569" height="1010" alt="image" src="https://github.com/user-attachments/assets/ac4b982c-0660-4e42-ad70-e172252dbc3d" />
 
 点击右上角的“保存”和“删除”按钮可以对笔记进行保存和删除
 
-<img width="569" height="1010" alt="image" src="https://github.com/user-attachments/assets/3a64d947-230c-4236-8b36-61716680b9ca" />
+<img width="569" height="1010" alt="image" src="https://github.com/user-attachments/assets/7884f00e-46e9-413e-9c9a-20e96ee4a483" />
 
 点击右上角的更多功能可以编辑笔记标题
+
+<img width="569" height="1010" alt="image" src="https://github.com/user-attachments/assets/3a64d947-230c-4236-8b36-61716680b9ca" />
+
+
+
+2.显示全部笔记
+
+点击右上角的全部可以显示所有笔记，例如从搜索跳转回列表页
+
+<img width="569" height="1010" alt="image" src="https://github.com/user-attachments/assets/f7551192-a00c-4b66-b6c8-4438719dd4e4" />
+
+点击“显示全部”后就会跳转回列表页面
+
+<img width="569" height="1010" alt="image" src="https://github.com/user-attachments/assets/d86907a0-4803-4c1d-8dab-b6a0fa36c397" />
+
 
 ## 核心功能
 
@@ -857,48 +870,7 @@ NotePad-main/
 
 ---
 
-## 编译和运行
 
-### 环境要求
-- Android Studio 4.0+
-- Android SDK API 14+
-- Gradle 8.0+
-
-### 编译步骤
-```bash
-# 克隆项目
-git clone <repository-url>
-
-# 进入项目目录
-cd NotePad-main
-
-# 编译 Debug 版本
-./gradlew assembleDebug
-
-# 安装到设备
-./gradlew installDebug
-```
-
-### 运行
-1. 使用 Android Studio 打开项目
-2. 连接 Android 设备或启动模拟器
-3. 点击 Run 按钮
-
----
-
-## 依赖库
-
-```gradle
-dependencies {
-    implementation 'androidx.appcompat:appcompat:1.3.1'
-    implementation 'androidx.cardview:cardview:1.0.0'
-}
-```
-
----
-
-limitations under the License.
-```
 
 
 
