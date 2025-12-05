@@ -1,0 +1,17 @@
+<resources>
+    <!-- 自定义主题：白天/夜间自动切换 -->
+    <style name="AppTheme" parent="android:Theme.Material.Light">
+        <!-- 窗口背景 -->
+        <item name="android:windowBackground">@color/bg</item>
+        <!-- 默认控件背景色 -->
+        <item name="android:colorBackground">@color/bg</item>
+        <!-- 默认文字颜色 -->
+        <item name="android:textColor">@color/text</item>
+        <!-- 主题色 -->
+        <item name="android:colorPrimary">@color/primary</item>
+        <item name="android:colorPrimaryDark">@color/primary_dark</item>
+        <item name="android:colorAccent">@color/accent</item>
+        <!-- 状态栏颜色 -->
+        <item name="android:statusBarColor">@color/primary_dark</item>
+    </style>
+</resources>

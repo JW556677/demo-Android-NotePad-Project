@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 背景色 -->
+    <color name="bg">#F5F7FA</color>
+    
+    <!-- 卡片背景色 -->
+    <color name="item_bg">#FFFFFF</color>
+    
+    <!-- 文字颜色 -->
+    <color name="text">#2C3E50</color>
+    <color name="text_secondary">#7F8C8D</color>
+    <color name="text_hint">#BDC3C7</color>
+    
+    <!-- 主题色 -->
+    <color name="primary">#3498DB</color>
+    <color name="primary_dark">#2980B9</color>
+    <color name="accent">#E74C3C</color>
+    
+    <!-- 笔记颜色选项 -->
+    <color name="note_white">#FFFFFF</color>
+    <color name="note_green">#A8E6CF</color>
+    <color name="note_orange">#FFD3B6</color>
+    <color name="note_cyan">#B2EBF2</color>
+    <color name="note_pink">#FFAAA5</color>
+    <color name="note_yellow">#FFF9C4</color>
+    <color name="note_purple">#E1BEE7</color>
+    
+    <!-- 分割线 -->
+    <color name="divider">#ECEFF1</color>
+</resources>

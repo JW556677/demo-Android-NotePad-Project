@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <!-- 使用纯色，系统会自动根据日夜切换 -->
+    <solid android:color="@color/item_bg" />
+    <!-- 圆角 -->
+    <corners android:radius="8dp" />
+    <!-- 内边距，让文字不贴边 -->
+    <padding
+        android:top="4dp"
+        android:bottom="4dp"
+        android:left="8dp"
+        android:right="8dp" />
+</shape>
