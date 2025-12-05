@@ -7,14 +7,23 @@
 本项目基于 Android NotePad 示例应用进行扩展开发，添加了多项实用功能，提升用户体验。
 
 ## 基本功能
+
 1.新建笔记和删除笔记
+
 <img width="569" height="1010" alt="image" src="https://github.com/user-attachments/assets/59de8826-ce67-48ba-a7f9-a5ff2aa1bdfb" />
+
 点击右上角的新建按钮可以新建笔记
+
 <img width="569" height="1010" alt="image" src="https://github.com/user-attachments/assets/ac4b982c-0660-4e42-ad70-e172252dbc3d" />
+
 新建笔记界面可以自行编辑标题和内容
+
 <img width="569" height="1010" alt="image" src="https://github.com/user-attachments/assets/7884f00e-46e9-413e-9c9a-20e96ee4a483" />
+
 点击右上角的“保存”和“删除”按钮可以对笔记进行保存和删除
+
 <img width="569" height="1010" alt="image" src="https://github.com/user-attachments/assets/3a64d947-230c-4236-8b36-61716680b9ca" />
+
 点击右上角的更多功能可以编辑笔记标题
 
 ## 核心功能
@@ -23,6 +32,7 @@
 
 在笔记列表中显示每条笔记的最后修改时间，方便用户快速了解笔记的更新情况。
 效果如图：
+
 <img width="569" height="1010" alt="image" src="https://github.com/user-attachments/assets/c25dbca2-a630-4ead-8738-4d58397299c8" />
 
 
@@ -90,7 +100,9 @@ private final void updateNote(String text, String title) {
 - 搜索框采用 SearchView 组件
 
 #### 实现效果
+
 点击右上角的搜索按钮可按标题和内容进行模糊查询
+
 <img width="569" height="1010" alt="image" src="https://github.com/user-attachments/assets/78c4f2ab-539d-41ab-abd0-5a7416b9e553" />
 <img width="569" height="1010" alt="image" src="https://github.com/user-attachments/assets/b871bd14-b1c4-4283-89da-c06e5ef16ff9" />
 <img width="569" height="1010" alt="image" src="https://github.com/user-attachments/assets/d3e1c7db-31b6-4833-b9e4-2aa3351f02c1" />
